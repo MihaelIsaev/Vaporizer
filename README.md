@@ -14,6 +14,24 @@
 # Declarativity + Vapor
 
 You could make your Vapor app look a little bit different ✈️
+<p align="center">
+    <a href="https://user-images.githubusercontent.com/1272610/93156028-58d74480-f718-11ea-8c4e-4958ab28400b.jpeg">
+        <img width="600px" src="https://user-images.githubusercontent.com/1272610/93156028-58d74480-f718-11ea-8c4e-4958ab28400b.jpeg" alt="Demo">
+    </a>
+</p>
+
+## How to install
+
+via Swift Package MAnager
+
+```swift
+.package(url: "https://github.com/MihaelIsaev/Vaporizer.git", from:"1.0.0"),
+.target(name: "App", dependencies: [
+    .product(name: "Vaporizer", package: "Vaporizer")
+]),
+```
+
+## Instructions
 
 Let's start from your `Run` scheme with `main.swift` file
 
