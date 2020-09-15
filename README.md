@@ -22,7 +22,7 @@ You could make your Vapor app look a little bit different ✈️
 
 ## How to install
 
-via Swift Package MAnager
+via Swift Package Manager
 
 ```swift
 .package(url: "https://github.com/MihaelIsaev/Vaporizer.git", from:"1.0.0"),
